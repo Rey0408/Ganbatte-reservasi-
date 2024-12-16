@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #ffffff, #ff4d4d);
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background: #ff4d4d;
+  color: white;
+  padding: 20px;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+.produk {
+  margin: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  margin: 10px 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e63e3e;
+}
+
+.kontak, footer {
+  text-align: center;
+  margin: 20px;
+}
